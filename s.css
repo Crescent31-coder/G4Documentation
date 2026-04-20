@@ -71,7 +71,7 @@ h2 {
 .project-logo {
         max-width: 100%;    /* Ensures it never exceeds screen width */
         height: auto;       /* Maintains aspect ratio */
-        width: 250px;       /* Set a base width (adjust as needed) */
+        width: 200px;       /* Set a base width (adjust as needed) */
         margin-bottom: 15px;
 }
 
