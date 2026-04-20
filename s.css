@@ -20,9 +20,18 @@ body {
     padding: 2rem 0;
 }
 
+h2 {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #1f695c; /* Deep teal for section titles */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 /* --- Navigation --- */
 .navbar {
-    background: #2c3e50;
+    background: #3774b1;
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -60,11 +69,30 @@ body {
 }
 
 .project-logo {
-    max-width: 150px;
+    max-width: 400px;
     height: auto;
     margin-bottom: 1rem;
 }
 
+.subtitle {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #5f6368; /* Soft professional gray */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .section-title {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #1f695c; /* Deep teal for section titles */
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
 /* --- Responsive Members Grid --- */
 .employees {
     display: grid;
@@ -75,7 +103,7 @@ body {
 
 .employee {
     text-align: center;
-    background: white;
+    background: rgb(254, 255, 238);
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -100,7 +128,7 @@ body {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
-    border-left: 5px solid #3498db;
+    border: 2px solid #1f695c;
     margin-bottom: 1rem;
 }
 
@@ -144,7 +172,7 @@ body {
 footer {
     text-align: center;
     padding: 2rem;
-    background: #2c3e50;
+    background: #3774b1;
     color: white;
     font-size: 0.8rem;
 }
